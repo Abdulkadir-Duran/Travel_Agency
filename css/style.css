@@ -105,6 +105,16 @@ section{
    font-size: 2.5rem;
    color:var(--black);
 }
+.header img{
+   height: 50px;
+   object-fit: cover;
+   width: auto;
+   margin: 10px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   overflow: hidden;
+}
 
 .header .navbar a{
    font-size: 2rem;
@@ -233,7 +243,7 @@ section{
    flex:1 1 41rem;
 }
 
-.home-about .image img{
+.home-about .image video{
    width: 100%;
 }
 
