@@ -106,7 +106,7 @@ section{
    color:var(--black);
 }
 .header img{
-   height: 50px;
+   height: 80px;
    object-fit: cover;
    width: auto;
    margin: 10px;
