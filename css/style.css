@@ -205,33 +205,64 @@ section{
    right: 7rem;
 }
 
+
 .services .box-container{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
    gap: 1.5rem;
 }
 
 .services .box-container .box{
-   padding:3rem 2rem;
+   padding: 2rem;
   
-   background: var(--main-color);
    cursor: pointer;
+   box-shadow: var(--box-shadow);
+   background: var(--white);
 }
 
 .services .box-container .box:hover{
-   background: var(--black);
+   background: var(--light-bg);
 }
-
-.services .box-container .box img{
+.services .box-container .box .image img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
    height: 10rem;
+   width: 100%;
+   
+   
+}
+.services .box-container .box .image img{
+   height: 100%;
+   width: 100%;
+   
    
 }
 
-.services .box-container .box h3{
-   color:var(--white);
-   font-size: 1.4rem;
-   padding-top: 1rem;
+.services .box-container .box h2{
+   margin: 1rem auto;
+   font-size: 1.5rem;
+   color:var(--black);
+   background-size: cover !important;
+   background-position: center !important;
+   font-weight: 800;
 }
+.services .box-container .box p, ul li{
+   font-size: 1.4rem;
+   color:var(--light-black);
+   line-height: 1.8;
+   
+   
+}
+.services .box-container .box ul li::marker{
+   color: #8e44ad;
+   font-size: 1.5rem;
+}
+.services .box-container .box ul li b{
+   color: var(--black);
+   font-size: 1.4rem;
+}
+
 
 .home-about{
    display: flex;
