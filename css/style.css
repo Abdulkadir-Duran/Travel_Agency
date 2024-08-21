@@ -264,32 +264,34 @@ section{
 }
 
 
-.home-about{
+.home-about .container{
    display: flex;
    align-items: center;
    flex-wrap: wrap;
+   gap: 1rem;
 }
 
-.home-about .image{
+.home-about .container .image{
    flex:1 1 41rem;
 }
 
-.home-about .image video{
+.home-about .container .image video{
    width: 100%;
+   height: 100%;
 }
 
-.home-about .content{
+.home-about .container .content{
    flex:1 1 41rem;
    padding:3rem;
    background: var(--light-bg);
 }
 
-.home-about .content h3{
+.home-about .container .content h3{
    font-size: 3rem;
    color:var(--black);
 }
 
-.home-about .content p{
+.home-about .container .content p{
    font-size: 1.5rem;
    padding:1rem 0;
    line-height: 2;
